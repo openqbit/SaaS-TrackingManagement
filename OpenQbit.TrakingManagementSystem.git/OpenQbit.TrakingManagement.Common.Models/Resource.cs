@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.TrakingManagement.Common.Models
 {
-    public class Class1
+    public abstract class Resource
     {
-        //aaaa
+        public int ResourceID { get; set; }
+
+        public string UserID { get; set; }
+
+        public string GPSLocation { get; set; }
+
     }
 }
