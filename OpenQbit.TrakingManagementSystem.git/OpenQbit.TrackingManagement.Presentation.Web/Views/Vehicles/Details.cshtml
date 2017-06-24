@@ -1,0 +1,67 @@
+﻿@model OpenQbit.TrakingManagement.Common.Models.Vehicle
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Vehicle</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GPSLocation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GPSLocation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VehicleID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VehicleID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VehicleType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VehicleType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VehicleNO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VehicleNO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TourNO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TourNO)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ResourceID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

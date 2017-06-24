@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.TrakingManagement.Common.Models
 {
-    public class Vehicle : Resource
+    public class Vehicle 
     {
         public int VehicleID { get; set; }
 
@@ -16,6 +16,10 @@ namespace OpenQbit.TrakingManagement.Common.Models
 
         public int TourNO { get; set; }
 
+        public int ResourceId { get; set; }
+
         public virtual Tour Tour { get; set; }
+
+        public virtual Resource Resource { get; set; }
     }
 }
