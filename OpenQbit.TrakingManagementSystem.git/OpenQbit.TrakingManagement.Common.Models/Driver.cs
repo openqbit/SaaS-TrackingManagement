@@ -6,16 +6,20 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.TrakingManagement.Common.Models
 {
-    public class Driver : Resource
+    public class Driver 
     {
         public int DriverID { set; get; }
 
         public string DriverName { get; set; }
 
-        public int Dnic { get; set; }
+        public int DriverNIC { get; set; }
 
-        public string TourID { get; set; }
+        public int TourID { get; set; }
+
+        public int ResourceId { get; set; }
 
         public virtual Tour Tour { get; set; }
+
+        public virtual Resource Resource { get; set; }
     }
 }

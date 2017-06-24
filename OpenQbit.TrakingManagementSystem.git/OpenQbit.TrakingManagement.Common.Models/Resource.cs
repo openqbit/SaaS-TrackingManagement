@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.TrakingManagement.Common.Models
 {
-    public abstract class Resource
+    public class Resource
     {
         public int ResourceID { get; set; }
 
