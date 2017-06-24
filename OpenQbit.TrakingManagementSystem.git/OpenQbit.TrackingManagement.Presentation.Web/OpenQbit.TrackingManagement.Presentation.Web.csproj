@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FD22AF60-6A4D-4EB7-B441-A0E535EFA754}</ProjectGuid>
+    <ProjectGuid>{9075921A-2190-4A83-8D1B-C9C9524B6F83}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -168,14 +168,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\DriversController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\ResourcesController.cs" />
-    <Compile Include="Controllers\RootDetailsController.cs" />
-    <Compile Include="Controllers\RootsController.cs" />
-    <Compile Include="Controllers\ToursController.cs" />
-    <Compile Include="Controllers\VehiclesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -240,36 +234,6 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Drivers\Create.cshtml" />
-    <Content Include="Views\Drivers\Delete.cshtml" />
-    <Content Include="Views\Drivers\Details.cshtml" />
-    <Content Include="Views\Drivers\Edit.cshtml" />
-    <Content Include="Views\Drivers\Index.cshtml" />
-    <Content Include="Views\Resources\Create.cshtml" />
-    <Content Include="Views\Resources\Delete.cshtml" />
-    <Content Include="Views\Resources\Details.cshtml" />
-    <Content Include="Views\Resources\Edit.cshtml" />
-    <Content Include="Views\Resources\Index.cshtml" />
-    <Content Include="Views\Roots\Create.cshtml" />
-    <Content Include="Views\Roots\Delete.cshtml" />
-    <Content Include="Views\Roots\Details.cshtml" />
-    <Content Include="Views\Roots\Edit.cshtml" />
-    <Content Include="Views\Roots\Index.cshtml" />
-    <Content Include="Views\RootDetails\Create.cshtml" />
-    <Content Include="Views\RootDetails\Delete.cshtml" />
-    <Content Include="Views\RootDetails\Details.cshtml" />
-    <Content Include="Views\RootDetails\Edit.cshtml" />
-    <Content Include="Views\RootDetails\Index.cshtml" />
-    <Content Include="Views\Tours\Create.cshtml" />
-    <Content Include="Views\Tours\Delete.cshtml" />
-    <Content Include="Views\Tours\Details.cshtml" />
-    <Content Include="Views\Tours\Edit.cshtml" />
-    <Content Include="Views\Tours\Index.cshtml" />
-    <Content Include="Views\Vehicles\Create.cshtml" />
-    <Content Include="Views\Vehicles\Delete.cshtml" />
-    <Content Include="Views\Vehicles\Details.cshtml" />
-    <Content Include="Views\Vehicles\Edit.cshtml" />
-    <Content Include="Views\Vehicles\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -281,16 +245,6 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\OpenQbit.TrakingManagement.Common.Models\OpenQbit.TrakingManagement.Common.Models.csproj">
-      <Project>{1323ab88-5ea9-4f76-952a-c2f25e464453}</Project>
-      <Name>OpenQbit.TrakingManagement.Common.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OpenQbit.TrakingManagement.DAL\OpenQbit.TrakingManagement.DAL.csproj">
-      <Project>{a5bbbf7e-d1bc-478c-962c-5d614a4ac252}</Project>
-      <Name>OpenQbit.TrakingManagement.DAL</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -308,7 +262,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>5004</DevelopmentServerPort>
+          <DevelopmentServerPort>5806</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:5004/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
