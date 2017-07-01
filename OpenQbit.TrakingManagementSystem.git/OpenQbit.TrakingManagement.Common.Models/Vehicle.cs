@@ -14,7 +14,7 @@ namespace OpenQbit.TrakingManagement.Common.Models
 
         public string VehicleNO { get; set; }
 
-        public int TourNO { get; set; }
+        public int TourID { get; set; }
 
         public int ResourceId { get; set; }
 

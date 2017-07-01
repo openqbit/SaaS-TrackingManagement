@@ -17,7 +17,9 @@ namespace OpenQbit.TrakingManagement.Common.Models
         public int RootId { get; set; }
 
         public int Speed { get; set; }
-        public Root Root { get; set; }
+
+        public virtual Root Root { get; set; }
+
         public virtual ICollection<Vehicle> Vehicle { get; set; }
 
         public virtual ICollection<Driver> Driver { get; set; }
