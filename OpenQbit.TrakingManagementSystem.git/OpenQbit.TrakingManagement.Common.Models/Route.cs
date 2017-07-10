@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.TrakingManagement.Common.Models
 {
-    public class Root
+    public class Route
     {
-        public int RootID { get; set; }
+        public int RouteID { get; set; }
 
-        public virtual ICollection<RootDetail> RootDetail { get; set; }
+        public virtual ICollection<RouteDetail> RouteDetail { get; set; }
+
     }
 }
