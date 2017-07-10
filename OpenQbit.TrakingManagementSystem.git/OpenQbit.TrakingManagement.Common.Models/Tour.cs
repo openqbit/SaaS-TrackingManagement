@@ -14,11 +14,11 @@ namespace OpenQbit.TrakingManagement.Common.Models
 
         public string Location { get; set; }
 
-        public int RootId { get; set; }
+        public int RouteId { get; set; }
 
         public int Speed { get; set; }
 
-        public virtual Root Root { get; set; }
+        public virtual Route Route { get; set; }
 
         public virtual ICollection<Vehicle> Vehicle { get; set; }
 

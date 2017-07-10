@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Test", "5 Test", "{B04E98
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.TrakingManagement.Common.Models", "OpenQbit.TrakingManagement.Common.Models\OpenQbit.TrakingManagement.Common.Models.csproj", "{1323AB88-5EA9-4F76-952A-C2F25E464453}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.TrakingManagement.DAL", "OpenQbit.TrakingManagement.DAL\OpenQbit.TrakingManagement.DAL.csproj", "{295EC6D7-0789-40F5-8A82-2D2EBD79F739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +29,16 @@ Global
 		{1323AB88-5EA9-4F76-952A-C2F25E464453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1323AB88-5EA9-4F76-952A-C2F25E464453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1323AB88-5EA9-4F76-952A-C2F25E464453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295EC6D7-0789-40F5-8A82-2D2EBD79F739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295EC6D7-0789-40F5-8A82-2D2EBD79F739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295EC6D7-0789-40F5-8A82-2D2EBD79F739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295EC6D7-0789-40F5-8A82-2D2EBD79F739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1323AB88-5EA9-4F76-952A-C2F25E464453} = {7115D74A-ACC8-446D-8494-FDFB65F62CFC}
+		{295EC6D7-0789-40F5-8A82-2D2EBD79F739} = {270878A4-DA80-45A3-BEA6-883B7B4D2957}
 	EndGlobalSection
 EndGlobal
